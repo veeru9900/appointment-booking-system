@@ -13,11 +13,13 @@ export default function UserDashboard() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (profile) {
+    if (profile?.uid) {
       getUserBookings(profile.uid).then(b => {
         setBookings(b);
         setLoading(false);
       });
+    } else {
+      setLoading(false);
     }
   }, [profile]);
 
