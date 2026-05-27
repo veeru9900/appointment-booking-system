@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../hooks/useAuth";
 import { getUserBookings } from "../../firebase/bookingService";
 import Sidebar from "../../components/Shared/Sidebar";
-import { FiCalendar, FiClock, FiCheckCircle, FiXCircle } from "react-icons/fi";
 
 export default function UserDashboard() {
   const { profile } = useAuth();

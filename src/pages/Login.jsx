@@ -3,7 +3,6 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { loginUser } from "../firebase/authService";
 import { getUserProfile } from "../firebase/authService";
-import { auth } from "../firebase/config";
 import toast from "react-hot-toast";
 import { FiMail, FiLock, FiLogIn } from "react-icons/fi";
 

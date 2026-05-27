@@ -5,7 +5,7 @@ import { logoutUser } from "../../firebase/authService";
 import toast from "react-hot-toast";
 import {
   FiCalendar, FiClock, FiList, FiLogOut,
-  FiUsers, FiGrid, FiCheckSquare, FiTool
+  FiUsers, FiGrid, FiTool
 } from "react-icons/fi";
 
 const userNav = [

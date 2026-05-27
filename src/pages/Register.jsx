@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { registerUser } from "../firebase/authService";
 import toast from "react-hot-toast";
-import { FiUser, FiMail, FiLock, FiUserPlus, FiShield } from "react-icons/fi";
+import { FiUser, FiMail, FiLock, FiUserPlus } from "react-icons/fi";
 
 export default function Register() {
   const [form, setForm] = useState({ name: "", email: "", password: "", confirm: "", role: "user" });
